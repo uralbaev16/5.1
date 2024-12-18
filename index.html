@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Users</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="main">
+       <div class="sidebar__wrapper">
+        <h2>Create Users</h2>
+        <div class="sidebar">
+            <form class="form" action="">
+                <input class="form__fname" required type="text" placeholder="First Name">
+                <input class="form__lname" required type="text" placeholder="Last Name">
+                <input class="form__age" required type="number" placeholder="Age">
+                <input class="form__profession" required type="text" placeholder="Profession">
+                <select class="form__gender" required>
+                    <option value="" disabled selected>Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input class="form__country" required type="text" placeholder="Country">
+                <button>Create</button>
+            </form>
+        </div>
+       </div>
+        <div class="content">
+            <div class="wrapper">
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
